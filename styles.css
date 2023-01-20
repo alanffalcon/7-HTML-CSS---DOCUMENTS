@@ -1,0 +1,87 @@
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER */
+
+nav {
+    position: fixed;
+    display: block;
+    border: solid;
+    border-left: 0;
+    width: 20%;
+    height: 100%;
+    margin-left: 0;
+    min-width: 130px;
+}
+
+nav > header {
+    font-size: 30px;
+    padding: 14px 0 14px 6px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+a:first-child {
+    margin: 7px 0;
+}
+
+a{
+    display: block;
+    border: 1px solid;
+    margin: 0;
+    padding: 15px 7px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border-left: 0;
+    transition: ease;
+}
+
+a:hover {
+    background-color: antiquewhite;
+}
+
+/* MAIN */
+
+main {
+    position: absolute;
+    display: block;
+    margin-left: 22%;
+    margin-top: 15px;
+}
+
+header {
+    font-size: 28px;
+    font-weight: bolder;
+    letter-spacing: 4px;
+}
+
+/* TIPOGRAFIA */
+
+p {
+   padding: 4px;
+   font-weight: bold;
+
+}
+
+.bold {
+    font-weight: bold;
+    font-family: Arial;
+}
+
+li {
+    font-weight: bold;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media(max-width:650px) {
+    main {
+        margin-left: 140px;
+    }
+}
